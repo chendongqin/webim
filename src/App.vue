@@ -36,7 +36,7 @@
 
         created : function(){
             let _this = this;
-            let conn = new WebSocket('ws://127.0.0.1:9501');
+            let conn = new WebSocket('ws://swoole.cddong.top:9501');
 
             conn.onopen = function(evt){
                 _this.showNotice(' 连接成功！','success');
